@@ -1,0 +1,23 @@
+div.main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+div.product-100 {
+    width: 100%;
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.category-name {
+    width: 69.8%;
+}
+
+div.random-class {
+    width: 100% !important;
+}

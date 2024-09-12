@@ -1,0 +1,72 @@
+section.first-100 {
+    width: 13%;
+    padding: 1rem 1rem;
+    background-color:whitesmoke;
+    margin-left: 20px;
+}
+div.rating-90{
+    padding-top: 0.8rem;
+    padding-bottom: 0.9rem;
+    font-size: 14.5px;
+}
+
+div.input-text-90 {
+    width: auto;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: baseline;
+    line-height: 15px;
+}
+
+div.input-text-90 p.digit-90 {
+    margin-left: 5px;
+}
+
+div.row-line-90 {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(213, 213, 213);
+}
+
+div.digit-star {
+    width: 14%;
+    background-color: green;
+    margin-left: 10px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+
+div.digit-star i.fa-solid {
+    font-size: 10.5px;
+}
+
+div.scroll-90 {
+    max-height: 240px;
+    overflow: auto
+}
+
+div.search-90 {
+    width: 100%;
+    border: 1px solid rgb(213, 213, 213);
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+div.search-90 i.fa-solid {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+input.text-150 {
+    width: 85%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+}

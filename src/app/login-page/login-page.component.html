@@ -1,0 +1,79 @@
+<!-- <p>login-page works!</p> -->
+<section class="first">
+
+    <div class="main-box-100" *ngIf="isValid ;else registration">
+        <div class="m-10 login-boc-10">
+            <h4>Login or Sign Up</h4>
+        </div>
+        <div class="m-10 login-boc-50">
+            <input type="text" placeholder="Enter Number">
+        </div>
+        <div class="m-10 login-boc-200">
+            <strong>CONTINUE</strong>
+        </div>
+        <div class="m-10 login-boc-80">
+            <div class="line-90"></div>
+            <span>or</span>
+            <div class="line-90"></div>
+        </div>
+        <div class="m-10 login-boc-200">
+            <strong>CONTINUE WITH EMAIL-ID</strong>
+        </div>
+        <div class="login-boc-200 login-boc-40">
+            <div class="google-box"> <a href="https://www.Google.com">
+                    <i class="fa-brands fa-google"></i></a>
+            </div>
+            <div class="google-text"> <strong>Google</strong>
+            </div>
+        </div>
+        <div class="text d-flex justify-content-center align-item-center cursur-pointer" (click)="formRegistration()">
+            <p class="text-center m-0">Don't have a acount? </p>
+            <strong> Rigistaration</strong>
+        </div>
+        <div class="login-boc-70"></div>
+    </div>
+
+    <ng-template #registration>
+        <div class="registration-from">
+            <div class="m-10 login-boc-10">
+                <h4>Ragistration</h4>
+            </div>
+            <div class="m-10 login-boc-50 d-flex justify-content-between">
+                <input class="border-0" type="text" placeholder="first number">
+                <input class="border-0" type="text" placeholder="last number">
+            </div>
+            <div class="m-10 login-boc-50 d-flex justify-content-between">
+                <input class="border-0" type="text" placeholder="Email-id">
+                <input class="border-0" type="text" placeholder="Mobile number">
+            </div>
+            <div class="m-10 login-boc-50 d-flex justify-content-between">
+                <input class="border-0" type="text" placeholder="first Number">
+                <input class="border-0" type="text" placeholder="last Number">
+            </div>
+            <div class="m-10 login-boc-200">
+                <strong>CONTINUE</strong>
+            </div>
+            <div class="m-10 login-boc-80">
+                <div class="line-90"></div>
+                <span>or</span>
+                <div class="line-90"></div>
+            </div>
+            <div class="m-10 login-boc-200">
+                <strong>CONTINUE WITH EMAIL-ID</strong>
+            </div>
+            <div class="login-boc-200 login-boc-40">
+                <div class="google-box"> <a href="https://www.Google.com">
+                        <i class="fa-brands fa-google"></i></a>
+                </div>
+                <div class="google-text"> <strong>Google</strong>
+                </div>
+            </div>
+            <div class="text d-flex justify-content-center align-item-center" (click)="formRegistration()">
+                <p class="text-center m-0">Don't have a acount? </p>
+                <strong> LogIn</strong>
+            </div>
+            <div class="login-boc-70"></div>
+        </div>
+    </ng-template>
+
+</section>

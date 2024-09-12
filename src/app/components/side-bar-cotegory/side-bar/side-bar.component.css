@@ -1,0 +1,18 @@
+section.first {
+    width: 15%;
+    background-color: rgb(195, 194, 194);
+    display: flex;
+    flex-direction: column;
+}
+
+div.w-100 {
+    width: 100%;
+    padding: 3.5px 4px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+p.f-20{
+    font-size: 17px;
+}

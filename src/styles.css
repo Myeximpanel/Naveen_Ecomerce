@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+swiper#annotation-swiper2 div.swiper-button-prev, swiper#annotation-swiper div.swiper-button-prev, swiper#annotation-swiper2 div.swiper-button-next, swiper#annotation-swiper div.swiper-button-next {
+    background-color: white;
+    width: 44px;
+    top: 85%;
+    border-radius: 50%;
+}
+swiper#annotation-swiper2 div.swiper-button-prev::after, swiper#annotation-swiper div.swiper-button-prev::after, swiper#annotation-swiper2 div.swiper-button-next::after, swiper#annotation-swiper div.swiper-button-next::after {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+swiper#annotation-swiper2 div.swiper-scrollbar, swiper#annotation-swiper div.swiper-scrollbar {
+    display: none !important;
+}
+swiper#annotation-swiper2 div.swiper-button-prev, swiper#annotation-swiper2 div.swiper-button-next {
+    top: 50%;
+}
+

@@ -1,0 +1,79 @@
+
+div.all_box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div.header{
+    height: 20%;
+    background-color: rgb(202, 74, 95);
+}
+
+div.main-body{
+    height: 85%;
+}
+
+
+/* div.headr_E {
+    width: 100%;
+    height: 12%;
+} */
+
+/* div.side-b {
+    width: 100%;
+} */
+
+/* div.side-b-500 {
+    width: 100%;
+} */
+
+/* div.side-b-50 {
+    width: 100%;
+   
+} */
+
+/* div.product-firt {
+    width: 100%;
+    height: 35vh;
+} */
+
+/* div.add-fir {
+    width: 100%;
+} */
+
+/* div.main {
+    width: 100%;
+    background-color: pink;
+    height: 73%;
+} */
+
+/* div.Header {
+    width: 100%;
+    background-color: blue;
+    height: 15%;
+} */
+/* div.footer-page-100{
+    width: 100%;
+} */
+
+/* div.prodt-discription {
+    width: 100%;
+
+} */
+
+/* div.similar-product100 {
+    width: auto;
+} */
+
+/* div.side-filter-200 {
+    width: 100%;
+} */
+
+/* div.cart-100{
+    width: 100%;
+} */
+
+/* div.login-page-100{
+    width: 100%;
+} */

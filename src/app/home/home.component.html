@@ -1,0 +1,18 @@
+<div class="main">
+    <div class="add-section-100">
+        <app-add-first></app-add-first>
+    </div>
+    <div class="product-100" *ngFor="let item2 of [1,2,3,4]">
+        <div class="category-name">
+            <app-category-name></app-category-name>
+        </div>
+        <swiper id="annotation-swiper2" [config]="config" class="w-75 h-100 px-5 com-img">
+            <ng-template swiperSlide *ngFor="let item of [1,2,3,4,5,6,7,8,9]">
+                <div class="random-class w-25 d-flex align-items-center justify-content-between"
+                    routerLink="/disription">
+                    <app-product-first></app-product-first>
+                </div>
+            </ng-template>
+        </swiper>
+    </div>
+</div>

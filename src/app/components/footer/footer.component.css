@@ -1,0 +1,150 @@
+section.footer-box {
+    width: 100%;
+    background-color: #222222;
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.main-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.footer-text-box {
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.heading-box {
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 33px;
+}
+
+div.text-color p {
+    margin: 7px 0px;
+}
+
+footer.footer-first-box {
+    width: 25%;
+}
+
+div.icon-box {
+    width: 100%;
+    display: flex;
+}
+
+div.icon-box span i {
+    margin: 3px 6px;
+    font-size: 30px;
+}
+
+
+div.icon-text {
+    width: 100%;
+    margin-top: 9px;
+    display: flex;
+}
+
+div.footer-box-second {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+}
+
+div.second-text-box {
+    width: 100%;
+}
+
+div.fourth-box {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.icon-text p {
+    margin-left: 10px;
+    margin-bottom: 0rem;
+}
+
+div.company-add-Email {
+    width: 100%;
+}
+
+div.icon-address {
+    display: flex;
+}
+
+div.icon-address p {
+    margin-left: 10px;
+    display: inline-table;
+}
+
+div.width-line {
+    width: 100%;
+    padding: 0.1px 0px;
+    margin-bottom: 4px;
+    background-color: #6e6e6e;
+    margin-top: 12px;
+}
+
+div.icon-phone {
+    width: 100%;
+    padding-bottom: 6px;
+    display: flex;
+}
+
+div.icon-phone p {
+    margin-left: 10px;
+}
+
+div.five-socila-media-icon {
+    margin-left: -7px;
+}
+
+span i.five-link {
+    font-size: 20px;
+    margin-left: 6px;
+    color: #a7a7a7;
+    margin-right: 6px;
+}
+
+.text-color {
+    font-size: 18px;
+    margin-right: 0px;
+    color: #a7a7a7;
+    letter-spacing: .5px;
+}
+
+strong.headin-color {
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+div.all-right-box {
+    width: 100%;
+    padding-top: 25px;
+    border-top: .1px solid #a7a7a7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+div.all-right-box p.copy-right-text-color {
+    font-size: 18px;
+    letter-spacing: .5px;
+    color: #a7a7a7;
+}
+
+div span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

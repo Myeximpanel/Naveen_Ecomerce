@@ -1,0 +1,203 @@
+section.first {
+    width: 100%;
+    display: flex;
+    background-color: #131921;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 999;
+}
+
+section.first div.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.first div.main div.child {
+    padding: 5px 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+
+}
+
+section.first div.main div.child1 {
+    height: 4.3rem;
+    margin-right: 0rem;
+}
+
+section.first div.main div.child2 {
+    width: 2% !important;
+    height: 4.4rem;
+}
+
+section.first div.main div.child1 img {
+    width: 100%;
+    height: 70%;
+    cursor: pointer;
+}
+
+section.first div.main div.child3 {
+    width: 80%;
+    height: 100%;
+}
+
+section.first div.main div.child input[type=text] {
+    font-size: 15.5px;
+    background-color: white;
+    float: left;
+    border: 0.1px solid #bbb7b7;
+    border-radius: 0px 0px 0px 0px;
+    width: 47%;
+    padding: 5px 10px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+
+section.first div.main div.child button {
+    padding: 5.3px 17.3px;
+    background: #2196F3;
+    color: white;
+    font-size: 16px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    border: 0px;
+}
+
+section.first div.main div.child button:hover {
+    background: #0b7dda;
+}
+
+::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+div.main div.child input {
+    width: 100%;
+}
+
+section.first div.main div.child p {
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+
+
+/* section.second {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(183, 182, 182);
+} */
+
+section.third {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232f3e;
+    position: fixed;
+    top: 7%;
+    z-index: 999;
+}
+
+section.third div.dropdown {
+    width: 9.9%;
+    display: flex;
+    margin: 0px 11px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 1rem;
+    top: 1.8rem;
+    background-color: black;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+p.dropbtn {
+    font-size: 17px;
+    margin: -2px 0px 2px 0px;
+    padding: 5px 0px;
+}
+
+.dropdown-content a {
+    font-size: 18px;
+    color: white;
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+
+.dropdown-content a div.sub-menu {
+    display: none;
+    position: absolute;
+    right: -100.6%;
+    top: 0;
+    background: black;
+    padding: 0 20px;
+}
+
+.dropdown-content a.menu-1:hover div.sub-menu {
+    display: block;
+
+    color: rgb(121, 134, 121);
+}
+
+.dropdown-content a.menu-1 div.sub-menu div {
+    color: aqua;
+    font-size: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    min-width: 150px;
+}
+
+.dropdown-content a:hover {
+    color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div.both-icon-100 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+div.add-to-cart {
+    cursor: pointer;
+}
+
+div.icon-and-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 21px;
+}
+
+div.icon-and-text p {
+    margin-left: 8px;
+    margin-bottom: 0px;
+}
